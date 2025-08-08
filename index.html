@@ -6,6 +6,13 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Donna Norkai Omaboe - Frontend Developer Portfolio showcasing skills, projects, and achievements">
+    <meta name="keywords" content="frontend developer, web development, portfolio, Donna Norkai Omaboe">
+    <meta name="author" content="Donna Norkai Omaboe">
+    <meta property="og:title" content="Donna Norkai Omaboe - Frontend Developer Portfolio">
+    <meta property="og:description" content="Personal portfolio showcasing skills, projects, and achievements">
+    <meta property="og:type" content="website">
 </head>
 <body>
     <nav id="desktop-nav">
@@ -15,6 +22,7 @@
                <li><a href="#about">About</a></li> 
                <li><a href="#experience">Experience</a></li> 
                <li><a href="#projects">Projects</a></li> 
+               <li><a href="#posters">Creative Work</a></li> 
                <li><a href="#contact">Contact</a></li> 
            </ul>
         </div>
@@ -34,6 +42,7 @@
                     <li><a href="#about" onclick="toggleMenu()">About</a></li> 
                     <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> 
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li> 
+                    <li><a href="#posters" onclick="toggleMenu()">Creative Work</a></li> 
                     <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                 </ul>
             </div>
@@ -65,6 +74,7 @@
             </div>
         </div>
     </section>
+    
     <section id="about">
   <p class="section__text__p1">Get To Know More</p>
   <h1 class="title">About Me</h1>
@@ -93,38 +103,287 @@
 
       <div class="text-container">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          reprehenderit et laborum, rem, dolore eum quod voluptate exercitationem nobis,
-          nihil esse debitis maxime facere minus sint delectus velit in eos quo
-          officiis explicabo deleniti dignissimos. Eligendi illum libero dolorum cum
-          laboriosam corrupti quidem, reiciendis ea magnam? Nulla, impedit fuga!
+          Hi, I’m Donna — a creative problem-solver and aspiring software engineer, graphic and fashion designer with a passion for blending design, technology, and strategy. I thrive at the intersection of 
+          functionality and aesthetics, creating digital experiences that are both impactful and visually engaging.
+          From modern website redesigns for global brands to interactive applications and eCommerce platforms, I enjoy 
+          turning ideas into polished, user-friendly products. My toolkit includes HTML, CSS, JavaScript, Tailwind CSS, 
+          and a growing expertise in backend solutions like Firebase and Strapi.I’m driven by curiosity, 
+          collaboration, and the challenge of learning something new every day. Whether I’m coding, designing, or brainstorming creative campaigns, my goal is always the same — 
+          to bring ideas to life in ways that connect with people and deliver real results.
         </p>
       </div>
     </div>
   </div>
 </section>
 
-    
+<!-- Skills Section -->
+<section id="skills">
+    <p class="section__text__p1">My</p>
+    <h1 class="title">Skills</h1>
+    <div class="skills-container">
+        <div class="skills-category">
+            <h3>Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">Excel</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">HTML</div>
+            </div>
+        </div>
+        
+        <div class="skills-category">
+            <h3>Creative Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-item">Event Planning</div>
+                <div class="skill-item">Fashion Illustration</div>
+            </div>
+        </div>
     </div>
-    <img src="./assets/arrow.png" 
-     alt="Arrow icon"
-     class="icon arrow"
-     onclick="location.href=.assets/experience"
-     >
+</section>
 
+<!-- Experience Section -->
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-container">
+        <div class="experience-card">
+            <h3>General Secretary</h3>
+            <p class="company">Entrepreneurship Committee</p>
+            <p class="duration">January 2025 - Present</p>
+            <p class="description">
+                Leading the entrepreneurship committee with strategic planning, 
+                event coordination, and fostering innovation among members.
+            </p>
+        </div>
+        
+        <div class="experience-card">
+            <h3>Intern</h3>
+            <p class="company">Lynx Entertainment</p>
+            <p class="duration">June 2025 - July 2025</p>
+            <p class="description">
+                Gained hands-on experience in the entertainment industry, 
+                contributing to various projects and learning industry best practices.
+            </p>
+        </div>
     </div>
-    
-  </div>
-    
-  
-</div>
+</section>
 
-</div>
+<!-- Achievements Section -->
+<section id="achievements">
+    <p class="section__text__p1">Check Out Some of My</p>
+    <h1 class="title">Certificates</h1>
+    <div class="achievements-container">
+        <div class="achievement-card">
+            <h3>Lloyds Banking Group</h3>
+            <p class="achievement-description">Professional certification from Lloyds Banking Group</p>
+            <a href="./assets/Lloyds Banking Group.pdf" class="achievement-link" target="_blank">View Certificate</a>
+        </div>
+        
+        <div class="achievement-card">
+            <h3>Cloud Computing</h3>
+            <p class="achievement-description">Advanced cloud computing and infrastructure certification</p>
+            <a href="./assets/Cloud computing.pdf" class="achievement-link" target="_blank">View Certificate</a>
+        </div>
+        
+        <div class="achievement-card">
+            <h3>CBRE Real Estate Certificate</h3>
+            <p class="achievement-description">Professional certification from CBRE Real Estate</p>
+            <a href="./assets/CBR Real Estate Certificate.pdf" class="achievement-link" target="_blank">View Certificate</a>
+        </div>
+        
+        <div class="achievement-card">
+            <h3>Deloitte Data Analytics</h3>
+            <p class="achievement-description">Data Analytics Job Simulation certification from Deloitte</p>
+            <a href="./assets/Deloitte Data Analytics Job Simulation.pdf" class="achievement-link" target="_blank">View Certificate</a>
+        </div>
+    </div>
+</section>
 
-</div>
+<!-- Projects Section -->
+<section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>To-Do List Tracker</h3>
+            <p class="project-description">
+                A comprehensive task management application with user-friendly interface,
+                task categorization, and progress tracking features.
+            </p>
+            <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="https://github.com/norkaid/To-Do-List-Tracker" class="project-link" target="_blank">GitHub</a>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h3>Coca Cola Website</h3>
+            <p class="project-description">
+                A modern, responsive website for Coca Cola with dynamic content,
+                interactive elements, and brand-focused design.
+            </p>
+            <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="https://github.com/norkaid/FUTURE_FSS_03" class="project-link" target="_blank">GitHub</a>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h3>Simple Python Chatbot</h3>
+            <p class="project-description">
+                An intelligent chatbot built with Python featuring natural language processing,
+                interactive GUI, and conversational AI capabilities.
+            </p>
+            <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="https://github.com/norkaid/Simple-Python-Chatbot" class="project-link" target="_blank">GitHub</a>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h3>E-Commerce Platform</h3>
+            <p class="project-description">
+                A full-stack e-commerce application with modern UI/UX design,
+                product catalog, shopping cart, and secure payment integration.
+            </p>
+            <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
 
-    </section>
-    
+<!-- Contact Section -->
+<section id="contact">
+    <p class="section__text__p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p>donna.omaboe@example.com</p>
+            </div>
+            <div class="contact-item">
+                <h3>Phone</h3>
+                <p>+1 (555) 123-4567</p>
+            </div>
+            <div class="contact-item">
+                <h3>Location</h3>
+                <p>City, Country</p>
+            </div>
+        </div>
+        
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-color-1">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Posters Section -->
+<section id="posters">
+    <p class="section__text__p1">Check Out My</p>
+    <h1 class="title">Creative Work</h1>
+    <div class="posters-container">
+        <div class="poster-card">
+            <img src="./assets/posters/1.png" alt="Creative Design 1" class="poster-image">
+            <h3>Creative Design 1</h3>
+            <p>Professional design showcasing innovative concepts</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/2.png" alt="Creative Design 2" class="poster-image">
+            <h3>Creative Design 2</h3>
+            <p>Artistic expression with modern design elements</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/3.png" alt="Creative Design 3" class="poster-image">
+            <h3>Creative Design 3</h3>
+            <p>Contemporary design with bold visual impact</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/4.png" alt="Creative Design 4" class="poster-image">
+            <h3>Creative Design 4</h3>
+            <p>Innovative design concept with attention to detail</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/5.png" alt="Creative Design 5" class="poster-image">
+            <h3>Creative Design 5</h3>
+            <p>Professional illustration with creative flair</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/6.png" alt="Creative Design 6" class="poster-image">
+            <h3>Creative Design 6</h3>
+            <p>Modern design with contemporary aesthetics</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/7.png" alt="Creative Design 7" class="poster-image">
+            <h3>Creative Design 7</h3>
+            <p>Artistic design with unique visual elements</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/8.png" alt="Creative Design 8" class="poster-image">
+            <h3>Creative Design 8</h3>
+            <p>Professional design with creative innovation</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/9.png" alt="Creative Design 9" class="poster-image">
+            <h3>Creative Design 9</h3>
+            <p>Contemporary design with artistic vision</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/10.png" alt="Creative Design 10" class="poster-image">
+            <h3>Creative Design 10</h3>
+            <p>Modern design with professional execution</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/11.png" alt="Creative Design 11" class="poster-image">
+            <h3>Creative Design 11</h3>
+            <p>Innovative design with creative expression</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/12.png" alt="Creative Design 12" class="poster-image">
+            <h3>Creative Design 12</h3>
+            <p>Professional design with artistic elements</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/13.png" alt="Creative Design 13" class="poster-image">
+            <h3>Creative Design 13</h3>
+            <p>Contemporary design with modern aesthetics</p>
+        </div>
+        
+        <div class="poster-card">
+            <img src="./assets/posters/14.png" alt="Creative Design 14" class="poster-image">
+            <h3>Creative Design 14</h3>
+            <p>Creative design with professional execution</p>
+        </div>
+    </div>
+</section>
 
     <script src="script.js"></script>
 </body>
