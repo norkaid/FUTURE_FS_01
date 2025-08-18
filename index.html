@@ -51,12 +51,12 @@
     
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/v.jpg" alt="Donna Norkai Omaboe profile picture">
+            <img src="./assets/vii.jpg" alt="Donna Norkai Omaboe profile picture">
         </div>
         <div class = "section__text">
             <p class="section__text__p1">Hello I'm</p>
             <h1 class = "title">Donna Norkai Omaboe</h1>
-            <p class="section__text__p2">Frontend Developer</p>
+            <p class="section__text__p2">Aspiring Frontend Developer</p>
             <div class="btn-container">
                 <button class="btn btn-color-2"onclick = "window.open('./assets/Resume1.pdf')">Download CV</button>
                 <button class="btn btn-color-1"onclick = "location.href='./#contact'">Contact Info</button>
@@ -82,32 +82,32 @@
   <div class="about-wrapper">
     <!-- Left Side Image -->
     <div class="about-img-container">
-      <img src="./assets/iv.jpg" alt="Profile Picture" class="about-img" />
+      <img src="./assets/v.jpg" alt="Profile Picture" class="about-img" />
     </div>
 
     <!-- Right Side Content -->
     <div class="about-content">
       <div class="about-cards">
         <div class="about-card">
-          <img src="./assets/experience.png" alt="Experience Icon" class="icon" />
+          <!-- Experience Briefcase SVG Icon -->
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 24 24"><path fill="#333" d="M7 7V6a5 5 0 0 1 10 0v1h2a2 2 0 0 1 2 2v9a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V9a2 2 0 0 1 2-2h2Zm2-1a3 3 0 1 1 6 0v1H9V6Zm-5 4v9a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V10H4Z"/></svg>
           <h3>Experience</h3>
           <p>2+ years<br/>Frontend Development</p>
         </div>
 
         <div class="about-card">
-          <img src="./assets/education.png" alt="Education Icon" class="icon" />
+          <!-- Education SVG Icon -->
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 24 24"><path fill="#333" d="M12 3 2 9l10 6 10-6-10-6Zm0 13.618L4 11.382V17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5.618l-8 5.236Z"/></svg>
           <h3>Education</h3>
-          <p>B.Sc. Bachelors Degree<br/>Computer</p>
+          <p>B.Sc. Bachelors Degree<br/>Computer Science</p>
         </div>
       </div>
 
       <div class="text-container">
         <p>
-          Hi, I’m Donna — a creative problem-solver and aspiring software engineer, graphic and fashion designer with a passion for blending design, technology, and strategy. 
-          I thrive at the intersection of functionality and aesthetics, creating digital experiences that are both impactful and visually engaging.
-          From modern website redesigns for global brands to interactive applications and eCommerce platforms, I enjoy 
-          turning ideas into polished, user-friendly products.I’m driven by curiosity, collaboration, and the challenge of learning something new everyday. 
-          Whether I’m coding, designing, or brainstorming creative campaigns, my goal is always the same — 
+          Hi, I’m Donna — a creative problem-solver and aspiring frontend developer, graphic and fashion designer with a passion for blending design, technology, and strategy. 
+          I thrive at the intersection of functionality and aesthetics, creating digital experiences that are both impactful and visually engaging.I’m driven by curiosity, collaboration, 
+          and the challenge of learning something new everyday. Whether I’m coding, designing, or brainstorming creative campaigns, my goal is always the same — 
           to bring ideas to life in ways that connect with people and deliver real results.
         </p>
       </div>
@@ -282,7 +282,7 @@
                 interactive GUI, and conversational AI capabilities.
             </p>
             <div class="project-links">
-                <a href="http://localhost:8505/" class="project-link" target="_blank">Live Demo</a>
+                <a href="https://simple-python-chatbot-mldqibfum-donnas-projects-a36af0c1.vercel.app/" class="project-link" target="_blank">Live Demo</a>
                 <a href="https://github.com/norkaid/Simple-Python-Chatbot" class="project-link" target="_blank">GitHub</a>
             </div>
         </div>
@@ -293,7 +293,7 @@
                 product catalog, shopping cart, and secure payment integration.
             </p>
             <div class="project-links">
-                <a href="http://localhost:5173/" class="project-link" target="_blank">Live Demo</a>
+                <a href="https://fusion-storefront-pro.lovable.app" class="project-link" target="_blank">Live Demo</a>
                 <a href="https://github.com/norkaid/FUTURE_FS_01/tree/main/assets/FUTURE_FS_02" class="project-link" target="_blank">GitHub</a>
             </div>
         </div>
@@ -305,7 +305,7 @@
     <p class="section__text__p1">Get In Touch</p>
     <h1 class="title">Contact Me</h1>
     <div class="contact-container">
-        <div class="contact-info">
+        <div class="contact-info contact-info-row">
             <div class="contact-item">
                 <h3>Email</h3>
                 <p>donnaomaboe2005@gmail.com</p>
@@ -319,21 +319,7 @@
                 <p>Accra, Ghana</p>
             </div>
         </div>
-        <form class="contact-form" id="contactForm">
-            <div class="form-group">
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
-            </div>
-            <div class="form-group">
-                <input type="email" id="email" name="email" placeholder="Your Email" required>
-            </div>
-            <div class="form-group">
-                <input type="text" id="subject" name="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group">
-                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-color-1">Send Message</button>
-        </form>
+        <!-- Contact form removed as requested -->
     </div>
 </section>
 
